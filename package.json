@@ -1,0 +1,29 @@
+{
+  "name": "rent",
+  "main": "index.js",
+  "version": "0.0.0",
+  "description": "Concisely test rendering functions with support for observable state",
+  "license": "MIT",
+  "repository": "bendrucker/rent",
+  "author": {
+    "name": "Ben Drucker",
+    "email": "bvdrucker@gmail.com",
+    "url": "bendrucker.me"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "keywords": [
+    "render",
+    "virtual-dom",
+    "state",
+    "observable"
+  ],
+  "devDependencies": {
+    "tape": "^4.0.0",
+    "standard": "^4.0.0"
+  },
+  "files": [
+    "index.js"
+  ]
+}
