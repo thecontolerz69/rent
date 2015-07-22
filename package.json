@@ -1,7 +1,7 @@
 {
   "name": "rent",
   "main": "index.js",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Concisely test rendering functions with support for observable state",
   "license": "MIT",
   "repository": "bendrucker/rent",
