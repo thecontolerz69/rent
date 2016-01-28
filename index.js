@@ -5,8 +5,8 @@ module.exports = function rent (renderFn, state) {
     throw new TypeError('render must be a function, got ' + renderFn)
   }
 
-  return function render (callback) {
+  return function render () {
     var currentState = typeof state === 'function' ? state() : state
-    callback(renderFn(currentState))
+    return renderFn(currentState)
   }
 }

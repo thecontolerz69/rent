@@ -22,9 +22,8 @@ var state = {
   name: 'Ben'
 }
 var render = rent(renderFn, state)
-render(function (rendered) {
-  //=> Ben is rendered
-})
+var rendered = render()
+//=> Ben is rendered
 ```
 
 Or with observable state:
@@ -40,14 +39,13 @@ var state = Observ({
   name: 'Ben'
 })
 var render = rent(renderFn, state)
-render(function (rendered) {
-  //=> Ben is rendered
-})
+var rendered = render()
+//=> Ben is rendered
 ```
 
 ## API
 
-#### `rent(renderFn, state)` -> `undefined`
+#### `rent(renderFn, state)` -> `function`
 
 ##### renderFn
 
@@ -57,7 +55,6 @@ Type: `function`
 A render function that takes state and returns rendered content (like a string or a virtual DOM tree).
 
 ##### state
-
 
 *Required*  
 Type: `any` / `function`
