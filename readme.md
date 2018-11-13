@@ -1,4 +1,4 @@
-# rent [![Build Status](https://travis-ci.org/bendrucker/rent.svg?branch=master)](https://travis-ci.org/bendrucker/rent)
+# rent [![Build Status](https://travis-ci.org/bendrucker/rent.svg?branch=master)](https://travis-ci.org/bendrucker/rent) [![Greenkeeper badge](https://badges.greenkeeper.io/bendrucker/rent.svg)](https://greenkeeper.io/)
 
 > Concisely test rendering functions with support for observable state
 
